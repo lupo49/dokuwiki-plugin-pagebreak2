@@ -1,0 +1,8 @@
+div.dokuwiki h1 {
+    page-break-before:always;
+}
+
+/* Do not break on the first print page */
+div.dokuwiki h1.sectionedit1, h2.sectionedit1, h3.sectionedit1, h4.sectionedit1, h5.sectionedit1 {
+    page-break-before:avoid;
+}

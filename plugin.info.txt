@@ -1,0 +1,7 @@
+base   pagebreak2
+author Matthias Schulte
+email  dokuwiki@lupo49.de
+date   2013-06-09
+name   pagebreak2 plugin
+desc   Adds page breaks before title in print view
+url    http://www.dokuwiki.org/plugin:pagebreak2
