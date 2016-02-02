@@ -18,7 +18,7 @@ define('KEYWORD_SOURCE_SYNTAX', 'syntax');
 
 class action_plugin_pagebreak2 extends DokuWiki_Action_Plugin {
 
-    function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
         $controller->register_hook('TPL_METAHEADER_OUTPUT','BEFORE',$this,'pagebreak2',array());
     }
 
